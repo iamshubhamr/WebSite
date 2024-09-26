@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Over Image</title>
+    <style>
+        .image-container {
+            position: relative;
+            width: 100%; /* Adjust the width as needed */
+            max-width: 600px; /* Optional: Set a maximum width for the container */
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto; /* Maintain the aspect ratio of the image */
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%; /* Adjust the position as needed */
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the text */
+            color: white; /* Text color */
+            font-size: 24px; /* Text size */
+            background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background color with transparency */
+            padding: 10px; /* Optional: Add some padding */
+            text-align: center; /* Center-align the text */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="/Image resource/bg1.png" alt="Background Image">
+        <p class="overlay-text">This is a paragraph over the image.</p>
+    </div>
+</body>
+</html>

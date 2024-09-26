@@ -1,0 +1,33 @@
+Body{
+    background-color: rgb(2, 16, 61);
+}
+td{
+    border: 2px solid black;
+    color: aliceblue;
+    
+}
+th{
+    border: 2px solid black;
+    border-color: rgb(22, 1, 1);
+    color: aliceblue;
+}
+caption{
+    color: aliceblue;
+    border: 2px solid black;
+    border-color: rgb(22, 1, 1);
+}
+li{
+    color: aliceblue;
+}
+h1{
+    color: white;
+}
+label{
+    color: white;
+}
+h3{
+    color: white;
+}
+span{
+    background-color: white;
+}
